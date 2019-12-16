@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="RH">
+
+	<listeners>
+
+		<listener class-name="com.rh.utilities.Reporting" />
+
+	</listeners>
+
+	<test name="Rectangle Health">
+
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+
+<!-- 			<class name="com.rh.testCases.TC_LoginTest_001" /> -->
+<!-- 			<class name="com.rh.testCases.TC_TakePaymentTest_002" /> -->
+<!-- 			<class name="com.rh.testCases.TC_AddVault_003" /> -->
+<!-- 			<class name="com.rh.testCases.TC_LoginDDT_004" /> -->
+<!-- 			<class name="com.rh.testCases.TC_AddVaultPAHCF_006" /> -->
+<!-- 			<class name="com.rh.testCases.TC_SearchReports233_007" /> -->
+<!-- 			<class name="com.rh.testCases.TC_EditVault_008" /> -->
+<!-- 			<class name="com.rh.testCases.TC_CheckRequired_009" /> -->
+<!-- 			<class name="com.rh.testCases.TC_Merchant583_012" /> -->
+<!-- 			<class name="com.rh.testCases.TC_522PayType521Expiry524_013" /> -->
+<!-- 			<class name="com.rh.testCases.TC_Delete520_014" /> -->
+<!-- 			<class name="com.rh.testCases.TC_Navigate519_015" /> -->
+<!-- 			<class name="com.rh.testCases.TC_ManualScript501_016" /> -->
+<!-- 			<class name="com.rh.testCases.TC_EditScript496_017" /> -->
+<!-- 			<class name="com.rh.testCases.TC_PartialMerchant494_018" /> -->
+<!-- 			<class name="com.rh.testCases.TC_Merchant493_019" /> -->
+<!-- 			<class name="com.rh.testCases.TC_PaymentApproved471_020" /> -->
+<!-- 			<class name="com.rh.testCases.TC_249Export457_021" /> -->
+<!-- 			<class name="com.rh.testCases.TC_Support378_022" /> -->
+<!-- 			<class name="com.rh.testCases.TC_Gif349_023" /> -->
+<!-- 			<class name="com.rh.testCases.TC_PayDecline239_024" /> -->
+<!-- 			<class name="com.rh.testCases.TC_Void237_026" /> -->
+<!-- 			<class name="com.rh.testCases.TC_TranscDet235_027" /> -->
+<!-- 			<class name="com.rh.testCases.TC_AmountSearch234_028" /> -->
+<!-- 			<class name="com.rh.testCases.TC_NameCardSearch232_029" /> -->
+<!-- 			<class name="com.rh.testCases.TC_SearchTransId231_030" /> -->
+<!-- 			<class name="com.rh.testCases.TC_MostRecTransc230_031" /> -->
+<!-- 			<class name="com.rh.testCases.TC_VirTerm211_032" /> -->
+<!-- 			<class name="com.rh.testCases.TC_ValuesRetained201_033" /> -->
+
+
+
+			<!-- <class name="com.rh.testCases.TestReciept" /> -->
+			<!-- <class name="com.rh.TC_sprint18.TC_Signature599_001" /> -->
+			<!-- <class name="com.rh.TC_sprint18.TC_Signature599_001" /> -->
+			<!-- <class name="com.rh.testCases.TC_SearchVault_005" /> -->
+			<!-- <class name="com.rh.testCases.TC_RunPaymentVault_010" /> -->
+			<!-- <class name="com.rh.testCases.TC_Type682_011" /> -->
+			<!-- <class name="com.rh.testCases.TC_PrintReciept238_025" /> -->
+			
+			
+			<class name="com.rh.TC_sprint18.TC_Signature599_001" />
+
+
+
+
+		</classes>
+
+	</test>
+
+</suite>
+

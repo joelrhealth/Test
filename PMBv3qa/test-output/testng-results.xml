@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RH" duration-ms="24908" started-at="2019-12-12T15:42:11Z" finished-at="2019-12-12T15:42:36Z">
+    <groups>
+    </groups>
+    <test name="Rectangle Health" duration-ms="24908" started-at="2019-12-12T15:42:11Z" finished-at="2019-12-12T15:42:36Z">
+      <class name="com.rh.TC_sprint18.TC_Signature599_001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.rh.TC_sprint18.TC_Signature599_001@19d1a19]" name="setup" is-config="true" duration-ms="10291" started-at="2019-12-12T15:42:11Z" finished-at="2019-12-12T15:42:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="signRequest()[pri:0, instance:com.rh.TC_sprint18.TC_Signature599_001@19d1a19]" name="signRequest" duration-ms="13811" started-at="2019-12-12T15:42:21Z" finished-at="2019-12-12T15:42:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signRequest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rh.TC_sprint18.TC_Signature599_001@19d1a19]" name="tearDown" is-config="true" duration-ms="641" started-at="2019-12-12T15:42:35Z" finished-at="2019-12-12T15:42:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rh.TC_sprint18.TC_Signature599_001 -->
+    </test> <!-- Rectangle Health -->
+  </suite> <!-- RH -->
+</testng-results>

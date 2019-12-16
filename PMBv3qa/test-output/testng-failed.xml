@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RH]">
+  <listeners>
+    <listener class-name="com.rh.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Rectangle Health(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.rh.testCases.TC_SearchTransId231_030">
+        <methods>
+          <include name="SearchRep"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.rh.testCases.TC_SearchTransId231_030 -->
+    </classes>
+  </test> <!-- Rectangle Health(failed) -->
+</suite> <!-- Failed suite [RH] -->
